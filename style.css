@@ -1,7 +1,12 @@
 body {
   margin: 0;
   padding: 0;
- }
+  display: flex; /*Creando un contexto para flexbox*/
+  /* Para centrar la caja contenedora respecto al body aplico las siguientes propiedades*/
+  flex-direction: column; /*con esta propiedad convierto mi main axis en el eje vertical */
+  justify-content: center; /*con esta propiedad centro el elemento de acuerdo al main axis que es vertical*/
+  align-items: center; /*con esta propiedad centro el elemento de acuerdo al cross axis que es horizontal*/
+  }
 
 h1 {
   text-align: center;
@@ -13,6 +18,10 @@ div {
   height: 600px;
   background-color: rgb(201, 227, 107);
   color: indigo;
+ display: flex; /*Creando un contexto para flexbox, flex-direction: row por defecto, entonces mi main axis es horizontal*/
+ justify-content: center; /*con esta propiedad centro el elemento de acuerdo al main axis (eje principal) que es horizontal*/
+ align-items: center; /*con esta propiedad centro el elemento de acuerdo al cross axis (eje secundario) que es vertical*/
+
 }
 
 footer {
@@ -20,4 +29,7 @@ background-color: rgba(19, 81, 143);
 color: wheat;
 width: 600px;
 height: 80px;
+display: flex; /*Creando un contexto para flexbox*/
+justify-content: center; /*con esta propiedad centro el elemento de acuerdo al main axis (eje principal) que es horizontal*/
+align-items: center; /*con esta propiedad centro el elemento de acuerdo al cross axis (eje secundario) que es vertical*/
 }
