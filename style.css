@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+ }
+
+h1 {
+  text-align: center;
+  color:blue;
+}
+
+div {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(201, 227, 107);
+  color: indigo;
+}
+
+footer {
+background-color: rgba(19, 81, 143);
+color: wheat;
+width: 600px;
+height: 80px;
+}
