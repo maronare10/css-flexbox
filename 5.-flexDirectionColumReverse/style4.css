@@ -19,7 +19,7 @@ h1 {
   background-color: rgb(201, 227, 107);
   color: indigo;
   display: flex; /*Genera 2 ejes, el principal (main axis) y el secundario (cross axis) y puedo cambiar estos ejes con la propiedad flex-direction"*/
-  flex-direction:column; /*cambia el eje principal de horizontal a vertical (main axis es vertical) y coloca los elementos uno debajo del otro*/
+  flex-direction:column-reverse; /*cambia el eje principal de horizontal a vertical y coloca los elementos uno debajo del otro*/
 }
 
 .flex-item {
