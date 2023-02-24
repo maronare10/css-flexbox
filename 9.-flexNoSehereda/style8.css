@@ -20,7 +20,7 @@ h1 {
   color: indigo;
   font-size: 80px; /* para aumentar el tamaño de letra de la palabra texto */
   display: flex; /*Genera 2 ejes, el principal (main axis) y el secundario (cross axis) y puedo cambiar estos ejes con la propiedad flex-direction"*/
-  justify-content: center; /* Estas propiedades de flex se aplican a la palabra texto aunque no tenga etiqueta, es envuelta por un flex-item:anonimo */
+  justify-content: center; /* Estas propiedades de flex se aplican a los items para centrar de acuerdo al eje principal */
   align-items: center;
 
 }
