@@ -20,7 +20,7 @@ h1 {
   color: indigo;
   font-size: 80px; /* para aumentar el tamaño de letra de la palabra texto */
   display: flex; /*Genera 2 ejes, el principal (main axis) y el secundario (cross axis) y puedo cambiar estos ejes con la propiedad flex-direction"*/
-  flex-direction: column; 
+  /* flex-direction: column;  */
   align-items: center; /*centra los elementos de acuerdo al eje secundario, en este caso el eje secundario es vertical */
 }
 
@@ -28,8 +28,8 @@ h1 {
   background-color:lightskyblue;
   color: blueviolet;
   font-size: 50px;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +37,7 @@ h1 {
 
 .flex-item:nth-child(odd) {
   background-color: lightcoral;
+  align-self: flex-end;
 }
 
 footer {
