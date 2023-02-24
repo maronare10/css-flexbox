@@ -18,7 +18,11 @@ h1 {
   height: 600px;
   background-color: rgb(201, 227, 107);
   color: indigo;
+  font-size: 80px; /* para aumentar el tamaño de letra de la palabra texto */
   display: flex; /*Genera 2 ejes, el principal (main axis) y el secundario (cross axis) y puedo cambiar estos ejes con la propiedad flex-direction"*/
+  justify-content: center; /* Estas propiedades de flex se aplican a la palabra texto aunque no tenga etiqueta, es envuelta por un flex-item:anonimo */
+  align-items: center;
+
 }
 
 .flex-item {
