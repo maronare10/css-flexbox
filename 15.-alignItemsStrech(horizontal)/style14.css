@@ -28,8 +28,8 @@ h1 {
   background-color:lightskyblue;
   color: blueviolet;
   font-size: 50px;
-  /* width: 200px;
-  height: 200px; */
+  /* width: 200px;*/ /* Es necesario que le quite al menos el ancho para que pueda funcionar la propiedad strech en el sentido vertical */
+  /*height: 200px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,8 +42,8 @@ h1 {
 footer {
 background-color: rgba(19, 81, 143);
 color: wheat;
-/* width: 600px; */ /* Es necesario que le quite al menos el ancho para que pueda funcionar la propiedad strech en el sentido vertical */
-/* height: 80px; */
+width: 600px;  
+height: 80px;
 display: flex; /*Creando un contexto para flexbox*/
 justify-content: center; /*con esta propiedad centro el elemento de acuerdo al main axis (eje principal) que es horizontal*/
 align-items: center; /*con esta propiedad centro el elemento de acuerdo al cross axis (eje secundario) que es vertical*/
